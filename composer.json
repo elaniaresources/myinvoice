@@ -1,0 +1,25 @@
+{
+    "name": "elaniaresources/myinvoice",
+    "description": "LHDN MyInvoice",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "~7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "sabre/xml": "^4.0",
+        "psr/http-client": "^1.0 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8|~9"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyInvoice\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
